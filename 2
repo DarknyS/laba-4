@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double x, R, k;
+	cout << "vvedite x" << endl;
+	cin >> x;
+	if ((x < 0) || (x > (6.28))) {
+		cout << "vvedeni nevernie dannie" << endl;
+	}
+	k = 180 / 3.14;
+	R = x * k;
+	cout << "R=" << R << "gradusov";
+	return 0;
+}
