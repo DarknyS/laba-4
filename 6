@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double A1, B1, A2, B2, C1, C2, x, y,prom,promx,promy;
+	cout << "vvedite A1 , B1 ,A2 ,B2 ,C1 ,C2 " << endl;
+	cin >> A1 >> B1 >> A2 >> B2 >> C1 >> C2;
+	prom = A1 * B2 - B1 * A2;
+	promx = C1 * B2 - B1 * C2;
+	promy = A1 * C2 - C1 * A2;
+	x = promx / prom;
+	y = promy / prom;
+	cout << "x=" << x << " " << "y= " << y << endl;
+	return 0;
+}
